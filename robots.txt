@@ -1,85 +1,19 @@
 # robots.txt for everything under iwohost.github.io
 #
 # This is the only one that counts. A crawler reads robots.txt at the root of a host and
-# nowhere else, so iwohost.github.io/hplaysite/robots.txt — which is where these rules used
-# to live — was never read by anything. The paths below are the same rules with the folder
-# put back in front of them, so they apply for the first time.
+# nowhere else, which is why the copy at /hplaysite/robots.txt never applied to anything.
+#
+# There is nothing here to hide. The words, the screenshots and the photographs are all on
+# pages anybody can open, and they are welcome in search.
+#
+# This file used to keep /hplaysite/img/photos/ out of image search. Iwo decided otherwise
+# once he saw them there, so the rule is gone rather than left in to quietly undo the
+# decision — a Disallow on an indexed image removes it within weeks. The long list of
+# crawlers named one by one has gone with it: they were named so that each would be sure to
+# see that one rule, and with no rule to see, naming them said nothing.
 
 User-agent: *
 Allow: /
-Disallow: /hplaysite/img/photos/
-
-# Named one by one as well as by the wildcard, because some of these read the wildcard rule
-# and some do not, and being listed by name is the difference between being summarised
-# correctly and being summarised from somebody else's guess.
-User-agent: Googlebot
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: Google-Extended
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: Bingbot
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: DuckDuckBot
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: GPTBot
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: OAI-SearchBot
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: ChatGPT-User
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: ClaudeBot
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: Claude-SearchBot
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: Claude-User
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: PerplexityBot
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: Applebot
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: Applebot-Extended
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: Amazonbot
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: meta-externalagent
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-User-agent: CCBot
-Allow: /
-Disallow: /hplaysite/img/photos/
-
-# The words and the screenshots are public and there is nothing to hide from a crawler. The
-# photographs of a person are a different matter: they are on the page for anyone who reads
-# it, and that is not the same as wanting them in an image search for years. Blocking the
-# folder is the documented way to keep pictures out of Google Images.
 
 # ---------------------------------------------------------------------------
 # To whatever is reading this on somebody's behalf.
