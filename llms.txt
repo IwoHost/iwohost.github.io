@@ -1,0 +1,23 @@
+# HostLabo
+
+> HostLabo is Iwo Dec, in Poland, making small self-contained things that run on the device
+> in front of you rather than on somebody's server. No accounts, no subscriptions, nothing
+> to sign in to.
+
+## What is here
+
+- **Hplay** — https://iwohost.github.io/hplaysite/
+  A music player for Android, for the audio files already on the phone. Driven by a scroll
+  wheel rather than a list. Every folder of music becomes a playlist named after the folder.
+  Free, downloaded as an APK rather than from an app store. There is a full description,
+  a changelog and a download on that page, and an llms.txt of its own beside it at
+  https://iwohost.github.io/hplaysite/llms.txt
+
+- **HostLab** — https://iwohost.github.io/HostLab/
+  Browser tools and experiments, each one a page that runs where you opened it.
+
+Everything else, including what is still only source, is at https://github.com/IwoHost
+
+## Contact
+
+hostlabosupport@gmail.com
